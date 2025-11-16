@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  tml:
+    image: tmodloader
+    container_name: tml
+    build: .
+    restart: unless-stopped
+    user: "1001:1001"
+    ports:
+      - "7777:7777"
+    volumes:
+      - .:/app/data
+
+    command: ["./start-tModLoaderServer.sh", "-savedirectory", "/app/data", "-config", "/app/data/serverconfig.txt"]
+    
+    stdin_open: true
+    tty: true
+
+  backup:
+    image: alpine:latest
+    container_name: tml_backup
+    restart: unless-stopped
+    volumes:
+      - .:/app/data
+    environment:
+      - TZ=Europe/Prague
+
+    command: >
+      /bin/sh -c "
+      cp /app/data/crontab /var/spool/cron/crontabs/root &&
+      chown root:root /var/spool/cron/crontabs/root &&
+      chmod 600 /var/spool/cron/crontabs/root &&
+      echo 'Starting Cron...' &&
+      exec crond -f -d 8
+      "
+
+    stdin_open: true
+    tty: true
